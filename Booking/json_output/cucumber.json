@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "RedBus Login with Chennai to Hyd",
+        "description": "",
+        "id": "redbus-login;redbus-login-with-chennai-to-hyd",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19019580843,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user lanches RedBus Url",
+            "match": {
+              "location": "RB.the_user_lanches_RedBus_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4111750274,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Select from Soruce Dropdown",
+            "match": {
+              "location": "RB.user_Select_from_Soruce_Dropdown(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "che"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3584617788,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user Select from Distination Dropdown",
+            "match": {
+              "location": "RB.user_Select_from_Distination_Dropdown(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ban"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18684629362,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user select 25.3.2019 in onward date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25.3",
+                  "offset": 12
+                },
+                {
+                  "val": ".2019",
+                  "offset": 16
+                }
+              ],
+              "location": "RB.user_select_in_onward_date(Double,Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8775639633,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click search button",
+            "match": {
+              "location": "RB.user_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "RedBus Login",
+    "description": "",
+    "id": "redbus-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/BusFile.feature",
+    "tags": []
+  }
+]

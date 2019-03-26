@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="54.180215">
+<testcase classname="RedBus Login" name="RedBus Login with Chennai to Hyd" time="54.180215">
+<system-out><![CDATA[Given the user lanches RedBus Url...........................................passed
+When user Select from Soruce Dropdown.......................................passed
+And user Select from Distination Dropdown...................................passed
+And user select 25.3.2019 in onward date....................................passed
+And user click search button................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
