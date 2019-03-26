@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Check that main elements on Google Homepage are displayed",
+        "description": "",
+        "id": "google-homepage;check-that-main-elements-on-google-homepage-are-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542265904,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "GoogleSteps.i_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4378535558,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Google Homepage",
+            "match": {
+              "location": "GoogleSteps.i_open_Google_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4541430051,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that the page displays \"java\" search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 32
+                }
+              ],
+              "location": "GoogleSteps.i_verify_that_the_page_displays_search_text_box(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Homepage",
+    "description": "",
+    "id": "google-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/GoogleFeatures.feature",
+    "tags": []
+  }
+]
