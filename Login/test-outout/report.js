@@ -1,160 +1,48 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/LoginFeature/LoginFile.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature");
 formatter.feature({
-  "name": "Facebook Login",
+  "name": "tages in cucumber",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "FB login with username and password",
+formatter.scenario({
+  "name": "open url",
   "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Enter the Url",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "Enter the username\"\u003cusername\u003e\" and password \"\u003cpassword\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "username",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "mercury",
-        "mer"
-      ]
-    },
-    {
-      "cells": [
-        "mer",
-        "mer"
-      ]
-    },
-    {
-      "cells": [
-        "mercury",
-        "mercury"
-      ]
+      "name": "@sanityTest"
     }
   ]
 });
-formatter.scenario({
-  "name": "FB login with username and password",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
 formatter.step({
-  "name": "Enter the Url",
+  "name": "verify url test",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Loginstep.enter_the_Url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the username\"mercury\" and password \"mer\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Loginstep.enter_the_username_and_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Loginstep.user_click_login_button()"
+  "location": "TaggingSteps.verify_url_test()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "FB login with username and password",
+  "name": "Close browser",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@sanityTest"
+    }
+  ]
 });
 formatter.step({
-  "name": "Enter the Url",
+  "name": "this close browser",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Loginstep.enter_the_Url()"
+  "location": "TaggingSteps.this_close_browser()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the username\"mer\" and password \"mer\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Loginstep.enter_the_username_and_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Loginstep.user_click_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "FB login with username and password",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Enter the Url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Loginstep.enter_the_Url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the username\"mercury\" and password \"mercury\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Loginstep.enter_the_username_and_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Loginstep.user_click_login_button()"
-});
-formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDef.TaggingSteps.this_close_browser(TaggingSteps.java:20)\r\n\tat ✽.this close browser(file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature:9)\r\n",
+  "status": "failed"
 });
 });

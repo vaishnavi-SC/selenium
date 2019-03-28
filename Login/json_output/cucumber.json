@@ -3,179 +3,66 @@
     "line": 1,
     "elements": [
       {
-        "line": 19,
-        "name": "FB login with username and password",
+        "line": 4,
+        "name": "open url",
         "description": "",
-        "id": "facebook-login;fb-login-with-username-and-password;;2",
+        "id": "tages-in-cucumber;open-url",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8998536939,
+              "duration": 18921619517,
               "status": "passed"
             },
-            "line": 11,
-            "name": "Enter the Url",
+            "line": 5,
+            "name": "verify url test",
             "match": {
-              "location": "Loginstep.enter_the_Url()"
+              "location": "TaggingSteps.verify_url_test()"
             },
             "keyword": "Given "
-          },
+          }
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 474492504,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter the username\"mercury\" and password \"mer\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"mercury\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"mer\"",
-                  "offset": 41
-                }
-              ],
-              "location": "Loginstep.enter_the_username_and_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1962881238,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user click login button",
-            "match": {
-              "location": "Loginstep.user_click_login_button()"
-            },
-            "keyword": "Then "
+            "name": "@sanityTest"
           }
         ]
       },
       {
-        "line": 20,
-        "name": "FB login with username and password",
+        "line": 8,
+        "name": "Close browser",
         "description": "",
-        "id": "facebook-login;fb-login-with-username-and-password;;3",
+        "id": "tages-in-cucumber;close-browser",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6772670178,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDef.TaggingSteps.this_close_browser(TaggingSteps.java:20)\r\n\tat ✽.this close browser(file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature:9)\r\n",
+              "duration": 9178371,
+              "status": "failed"
             },
-            "line": 11,
-            "name": "Enter the Url",
+            "line": 9,
+            "name": "this close browser",
             "match": {
-              "location": "Loginstep.enter_the_Url()"
+              "location": "TaggingSteps.this_close_browser()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 434197885,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter the username\"mer\" and password \"mer\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"mer\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"mer\"",
-                  "offset": 37
-                }
-              ],
-              "location": "Loginstep.enter_the_username_and_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2253236154,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user click login button",
-            "match": {
-              "location": "Loginstep.user_click_login_button()"
-            },
-            "keyword": "Then "
           }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "FB login with username and password",
-        "description": "",
-        "id": "facebook-login;fb-login-with-username-and-password;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 16541884543,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Enter the Url",
-            "match": {
-              "location": "Loginstep.enter_the_Url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 505514417,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Enter the username\"mercury\" and password \"mercury\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"mercury\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"mercury\"",
-                  "offset": 41
-                }
-              ],
-              "location": "Loginstep.enter_the_username_and_password(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 22623572503,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user click login button",
-            "match": {
-              "location": "Loginstep.user_click_login_button()"
-            },
-            "keyword": "Then "
+            "name": "@sanityTest"
           }
         ]
       }
     ],
-    "name": "Facebook Login",
+    "name": "tages in cucumber",
     "description": "",
-    "id": "facebook-login",
+    "id": "tages-in-cucumber",
     "keyword": "Feature",
-    "uri": "file:src/test/java/LoginFeature/LoginFile.feature",
+    "uri": "file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature",
     "tags": []
   }
 ]

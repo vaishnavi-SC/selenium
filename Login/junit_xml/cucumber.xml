@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="60.576103">
-<testcase classname="Facebook Login" name="FB login with username and password" time="11.442236">
-<system-out><![CDATA[Given Enter the Url.........................................................passed
-When Enter the username"mercury" and password "mer".........................passed
-Then user click login button................................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.939791">
+<testcase classname="tages in cucumber" name="open url" time="18.92992">
+<system-out><![CDATA[Given verify url test.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Facebook Login" name="FB login with username and password 2" time="9.462249">
-<system-out><![CDATA[Given Enter the Url.........................................................passed
-When Enter the username"mer" and password "mer".............................passed
-Then user click login button................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Facebook Login" name="FB login with username and password 3" time="39.671618">
-<system-out><![CDATA[Given Enter the Url.........................................................passed
-When Enter the username"mercury" and password "mercury".....................passed
-Then user click login button................................................passed
-]]></system-out>
+<testcase classname="tages in cucumber" name="Close browser" time="0.009871">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDef.TaggingSteps.this_close_browser(TaggingSteps.java:20)&#13;&#10;&#9;at ✽.this close browser(file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature:9)&#13;&#10;"><![CDATA[Given this close browser....................................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDef.TaggingSteps.this_close_browser(TaggingSteps.java:20)
+	at ✽.this close browser(file:/C:/Users/ADMIN/git/repository/Login/src/test/java/LoginFeature/Tagging.feature:9)
+]]></failure>
 </testcase>
 </testsuite>
